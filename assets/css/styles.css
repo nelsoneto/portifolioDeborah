@@ -226,15 +226,16 @@ img{
 }
 
 /*BUTTONS*/
-.button{
+.home__button{
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: .5rem;
+  /* border: none; */
 }
-.button:hover{
+.home__button:hover{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 
@@ -339,12 +340,20 @@ img{
   margin-bottom: var(--mb-4);
 }
 .contact__button{
-  display: block;
+  display: flex;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: .75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: .5rem;
   border: none;
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
+}
+.contact__button:hover{
+  box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 
 /* ===== FOOTER =====*/
